@@ -87,7 +87,7 @@
       <div id="sidebar" class="nav-collapse ">
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
-          <li class="active">
+          <li class="">
             <a class="" href="index.html">
                           <i class="icon_house_alt"></i>
                           <span>Home</span>
@@ -104,22 +104,10 @@
               <li><a class="" href="aerobica.html">Aeróbica</a></li>
             </ul>
           </li>
-          <li class="sub-menu">
-            <a href="javascript:;" class="">
-                          <i class="icon_calendar"></i>
-                          <span>Horarios de uso</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-            <ul class="sub">
-              <li><a class="" href="general.html">Máquinas y pesas</a></li>
-              <li><a class="" href="buttons.html">Aeróbica</a></li>
-
-            </ul>
-          </li>
           <li>
             <a class="" href="widgets.html">
                           <i class="icon_book"></i>
-                          <span>Mis reservas</span>
+                          <span>Asistencias y progresos</span>
                       </a>
           </li>
 
@@ -236,7 +224,20 @@
     //knob
     $(".knob").knob();
   </script>
-
+  <style media="screen">
+  .profile-widget, .profile-widget-info,.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .sidebar-menu {
+    background-color: #dd8812 !important;
+  }
+  .panel > .panel-heading {
+      background-image: none;
+      background-color: #dd8812;
+      color: white;
+  }
+  .icon >.icon_check {
+      width: 30px !important;
+      height: 16px;
+  }
+  </style>
 
 </body>
 
